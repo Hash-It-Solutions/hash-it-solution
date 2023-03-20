@@ -52,40 +52,38 @@
     right:0;
     transition: 0.3s ease;
 }
-.our-services.typewriter{
-    animation: cursor 1s step-start infinite, 
-      text 5s steps(18) alternate infinite;
+
+.typewriter-2 {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-1 1s step-start infinite, 
+    text-1 5s steps(18) alternate infinite;
+}
+@keyframes cursor-1 {
+	0%, 100% { 
+    border-color: #370435; 
   }
-  @keyframes cursor {
-      0%, 100% { 
-      border-color: #370435; 
-    }
+}
+
+@keyframes text-1 {
+	0% { 
+    width: 0; 
   }
-  
-  @keyframes text {
-      0% { 
-      width: 0; 
-    }
-      100% { 
-      width: 10.5ch; 
-    }
+	100% { 
+    width: 10.5ch; 
   }
-  @media(max-width: 991px){
-    .our-services{
-        padding: 10px;
-        margin: 0 auto;
-    }
-    .service-cards .card{
-        margin: 0 auto;
-        display: block;
-    }
-   
-  }
+}
 
 /* -----------------service pages----------------- */
 .about-service{
     margin-top: 50px;
 }
+
 .more-details{
 margin-top: 50px;
 }
@@ -118,3 +116,142 @@ margin-top: 50px;
   .about-service .second{
     font-weight: normal;
   }
+  @media(max-width: 991px){
+    .about-service{
+        margin-top: 20px;
+    } 
+    .more-details{
+        margin-top: 20px;
+        }
+        .more-details h5{
+            text-align: center;
+        }
+        .ios .gray-box h5{
+            text-align: center;
+        }
+        .ios .gray-box, .Website .gray-box{
+            padding: 40px 20px;
+        }
+        
+}
+
+
+/* -----------------text-animation ios page start----------------- */
+   
+.typewriter-ios {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-ios 1s step-start infinite, 
+    text-ios 5s steps(18) alternate infinite;
+}
+@keyframes cursor-ios {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text-ios {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 12.5ch; 
+  }
+}
+
+/* -----------------text-animation ios page end----------------- */
+
+/* -----------------text-animation web page start----------------- */
+   
+.typewriter-web {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-web 1s step-start infinite, 
+    text-web 5s steps(18) alternate infinite;
+}
+@keyframes cursor-web {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text-web {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 16.5ch; 
+  }
+}
+
+/* -----------------text-animation ios page end----------------- */
+
+/* -----------------text-animation web page start----------------- */
+   
+.typewriter-dig {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-dig 1s step-start infinite, 
+    text-dig 5s steps(18) alternate infinite;
+}
+@keyframes cursor-dig {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text-dig {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 12.5ch; 
+  }
+}
+
+/* -----------------text-animation ios page end----------------- */
+
+/* -----------------text-animation web page start----------------- */
+   
+.typewriter-soft {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-soft 1s step-start infinite, 
+    text-soft 5s steps(18) alternate infinite;
+}
+@keyframes cursor-soft {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text-soft {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 16.9ch; 
+  }
+}
+
+/* -----------------text-animation ios page end----------------- */

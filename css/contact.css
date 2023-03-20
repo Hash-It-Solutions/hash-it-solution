@@ -49,5 +49,34 @@
       text-align: center;
       padding: 10px;
     }
-    
+    .typewriter-3 {
+      font-size: 25px!important;
+    }
   }
+
+  
+.typewriter-3 {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-3 1s step-start infinite, 
+    text-3 5s steps(18) alternate infinite;
+}
+@keyframes cursor-3 {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text-3 {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 9.5ch; 
+  }
+}

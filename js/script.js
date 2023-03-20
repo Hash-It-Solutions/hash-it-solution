@@ -1,11 +1,14 @@
-// var myDiv = document.getElementById("my-div");
-// myDiv.addEventListener("mouseover", function() {
-//   myDiv.innerHTML = "New content";
-// });
+// ----------------------li active---------------------------------
 
-// myDiv.addEventListener("mouseout", function() {
-//   myDiv.innerHTML = "Original content";
-// });
+
+function changeNav(cls){
+  $("." + cls).addClass("active");
+}
+
+
+// ------------------------li active--------------------------------
+
+
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 100) {

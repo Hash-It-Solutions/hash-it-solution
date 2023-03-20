@@ -99,17 +99,24 @@
 }
 }
 
-.about-us .typewriter{
-  animation: cursor 1s step-start infinite, 
-    text 5s steps(18) alternate infinite;
+.typewriter-1 {
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #771193;
+	
+    font-size: 60px;
+    color: white;
+    margin: 0 auto;
+    animation: cursor-1 1s step-start infinite, 
+    text-1 5s steps(18) alternate infinite;
 }
-@keyframes cursor {
+@keyframes cursor-1 {
 	0%, 100% { 
     border-color: #370435; 
   }
 }
 
-@keyframes text {
+@keyframes text-1 {
 	0% { 
     width: 0; 
   }
@@ -117,7 +124,6 @@
     width: 7.5ch; 
   }
 }
-
 
 
 
