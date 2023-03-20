@@ -193,6 +193,9 @@ body a{
   background-color: #9747FF;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.home-cards .gray-box:hover div h1{
+  content: "hii";
+}
 .home-cards .home-gray-box-text{
   position: relative;
 }
@@ -222,8 +225,8 @@ body a{
 .home-cards .linkedin .gray-box{
   position: relative;
 }
-.home-landing .typewriter {
-	/* width: 21.5ch; */
+.home-landing .typing {
+	width: 21.5ch;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 4px solid #771193;
@@ -232,11 +235,11 @@ body a{
     color: white;
     margin: 0 auto;
 }
-.home-landing .typewriter{
-  animation: cursor 1s step-start infinite, 
+.home-landing .typing{
+  animation: type 1s step-start infinite, 
     text 5s steps(18) alternate infinite;
 }
-@keyframes cursor {
+@keyframes type {
 	0%, 100% { 
     border-color: #370435; 
   }
@@ -247,7 +250,7 @@ body a{
     width: 0; 
   }
 	100% { 
-    width: 50.5ch!important; 
+    width: 50.5ch; 
   }
 }
 @media(max-width: 991px){
