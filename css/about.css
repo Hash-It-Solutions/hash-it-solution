@@ -30,9 +30,13 @@
     padding: 30px!important;
   }
   .contact-box:hover{
-    background-color: #CE0F0F;
+    background-color: #CE0F0F!important;
   }
   .contact-box h5{
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  .contact-box h2{
     font-weight: 500;
     transition: 0.3s ease;
   }
@@ -66,6 +70,8 @@
 	height: 100%;
 	object-fit: cover;
     transition: transform 400ms ease-out;
+    border-left: 7px solid #9747FF;
+    border-bottom: 7px solid #9747FF;
 }
 .about-us-gallery img:hover {
 	transform: scale(1.1);
@@ -78,6 +84,44 @@
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
 }
+@media(max-width: 991px){
+  .about-us .gray-box{
+    padding: 30px 20px!important;
+  }
+  .hash-it-more{
+    margin-top: 20px;
+  }
+  .gray-box .contact-link {
+    margin-top: auto;
+}
+.typewriter{
+  font-size: 35px!important;
+}
+}
+
+.about-us .typewriter{
+  animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #370435; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 7.5ch; 
+  }
+}
+
+
+
+
+
  /* ------------about-us-gallery end------------ */
 
     /* ------------about-us end------------ */

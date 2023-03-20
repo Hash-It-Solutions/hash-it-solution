@@ -24,8 +24,10 @@
     <nav class="navbar navbar-expand-lg navbar-light p-3 fixed-top">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="navbar logo" class="img-fluid"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -39,7 +41,7 @@
                 <a class="nav-link" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
             </ul>
               <a href="contact.html"><button class="btn btn-sm button-style" type="submit">Get in touch</button></a>
@@ -65,17 +67,17 @@
   <div class="container">
     <!-- ---------------about-us box start---------------- -->
     <div class="row contact-contents  justify-content-center align-items-center">
-      <div class="col-lg-6">
-        <h3 class="text-white">At Hash It Solutions, we believe that technology has the power.</h3>
-        <p class="text-white">At Hash It Solutions, we believe that technology has the power to transform businesses and improve people's lives.</p>
+      <div class="col-lg-6 order-1 order-md-0">
+        <h3 class="text-white fw-bold mt-4 mt-md-0">At Hash It Solutions, we believe that technology has the power.</h3>
+        <p class="text-white mt-4 mt-md-0">At Hash It Solutions, we believe that technology has the power to transform businesses and improve people's lives.</p>
         <div class="get-in">
-          <h6 class="purple-head fw-bold">WANT TO CALL US?</h6>
+          <h6 class="purple-head fw-bold mt-4 mt-md-0">WANT TO CALL US?</h6>
           <a href="">Schedule a call with us</a>
           <h6 class="purple-head mt-4 fw-bold">WANT TO EMAIL US?</h6>
           <a href="">hashit@gmail.com</a>
         </div>
     </div>
-      <div class="col-lg-6 justify-content-center align-items-center">
+      <div class="col-lg-6 order-0 order-md-1 justify-content-center align-items-center">
        <form action="">
         <div class="mb-3">
           <input type="text" class="form-control" id="name" placeholder="Name">
@@ -97,7 +99,6 @@
 <!-- ---------------service-cards start---------------- -->
 <div class="service-cards">
   <div class="row  ">
-    <div class="row ">
       <div class="col-lg-4 mt-4 service-card-desc">
         <a href="ios-design.html">
           <div class="card">
@@ -164,7 +165,6 @@
         </a>
       </div>
       <div class="col-lg-4"></div>
-    </div>
   </div>
 </div>
 <!-- ---------------service-cards end---------------- -->

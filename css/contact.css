@@ -41,3 +41,13 @@
     opacity: 0.7;
     color: white;
   }
+  @media(max-width: 991px){
+    .contact-landing{
+      padding-top: 170px;
+    }
+    .contact-us{
+      text-align: center;
+      padding: 10px;
+    }
+    
+  }

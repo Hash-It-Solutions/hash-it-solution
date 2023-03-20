@@ -35,6 +35,7 @@
 .service-cards .card h5{
     transition: 0.3s ease;
 }
+
 .service-cards .card img{
     width: 100px;
     height: auto;
@@ -51,8 +52,35 @@
     right:0;
     transition: 0.3s ease;
 }
-
-
+.our-services.typewriter{
+    animation: cursor 1s step-start infinite, 
+      text 5s steps(18) alternate infinite;
+  }
+  @keyframes cursor {
+      0%, 100% { 
+      border-color: #370435; 
+    }
+  }
+  
+  @keyframes text {
+      0% { 
+      width: 0; 
+    }
+      100% { 
+      width: 10.5ch; 
+    }
+  }
+  @media(max-width: 991px){
+    .our-services{
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .service-cards .card{
+        margin: 0 auto;
+        display: block;
+    }
+   
+  }
 
 /* -----------------service pages----------------- */
 .about-service{
