@@ -39,7 +39,7 @@
     line-height: 1.2;
     transition: all 0.3s ease;
   }
-  .portfolio .gallery .gallery-filter .filter-item.active{
+  .portfolio .gallery .gallery-filter .filter-item.active, .portfolio .gallery .gallery-filter .filter-item:hover{
     color: #9747FF;
     border-color : #9747FF;
   }
@@ -48,6 +48,10 @@
     /* height: 450px; */
     object-fit: cover;
     border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  .portfolio .gallery .gallery-item-inner img:hover{
+    opacity: 0.6;
   }
   .portfolio  .gallery .gallery-item{
     box-shadow: none;
@@ -93,4 +97,90 @@
     .portfolio .gallery {
       padding: 14px 0;
     }
+  }
+
+
+  .portfolio .content {
+    position: relative;
+    /* width: 90%; */
+    /* max-width: 400px; */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .portfolio .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    /* height: 99%; */
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .portfolio .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .portfolio .content-image{
+    width: 100%;
+  }
+  
+  .portfolio .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .portfolio .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .portfolio .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+  .portfolio .fadeIn-bottom{
+    top: 80%;
+  }
+  
+  .portfolio .fadeIn-top{
+    top: 20%;
+  }
+  
+  .portfolio .fadeIn-left{
+    left: 20%;
+  }
+  
+  .portfolio .fadeIn-right{
+    left: 80%;
+  }
+  .portfolio .button-more{
+    padding: 10px 30px;
+    border: 0;
+    background-color: #2a2932;
+    color: white;
+    transition: 0.3s ease;
+  }
+  .portfolio .button-more:hover{
+    opacity: 0.7;
   }
