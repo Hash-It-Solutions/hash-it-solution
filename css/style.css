@@ -241,6 +241,8 @@ body a{
 }
 .home-cards .linkedin-img img{
   transition: 0.3s ease;
+  margin: 0 auto;
+  display: block;
 }
 .home-cards .linkedin-img:hover img{
   height: 115px!important;
@@ -273,7 +275,7 @@ body a{
   transition: 0.3s ease;
 }
 .home-cards .what-we-do .gray-box img{
-  height: 100px;
+  height: 80px;
   width: auto;
   margin: 0 auto;
   display: block;
@@ -288,8 +290,9 @@ body a{
 .home-cards .linkedin .gray-box{
   position: relative;
 }
-.home-landing .typing {
-	width: 21.5ch;
+/* -----------------text-animation ios page start----------------- */
+   
+.typewriter-0 {
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 4px solid #771193;
@@ -297,25 +300,25 @@ body a{
     font-size: 60px;
     color: white;
     margin: 0 auto;
+    animation: cursor-0 1s step-start infinite, 
+    text-0 5s steps(18) alternate infinite;
 }
-.home-landing .typing{
-  animation: type 1s step-start infinite, 
-    text 5s steps(18) alternate infinite;
-}
-@keyframes type {
+@keyframes cursor-0 {
 	0%, 100% { 
     border-color: #370435; 
   }
 }
 
-@keyframes text {
+@keyframes text-0 {
 	0% { 
     width: 0; 
   }
 	100% { 
-    width: 100%; 
+    width: 11.5ch; 
   }
 }
+
+/* -----------------text-animation ios page end----------------- */
 @media(max-width: 991px){
   .home-landing{
     padding: 150px 10px 50PX 10PX;

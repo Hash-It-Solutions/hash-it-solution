@@ -1,0 +1,36 @@
+.our-products{
+    margin-top: 50px;
+}
+.our-products a{
+    color: white;
+    transition: 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+.our-products a:hover{
+    opacity: 0.7;
+}
+.our-products p{
+    text-align: justify;
+}
+.our-products img{
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.our-products .product-bg{
+    background-color: rgb(38 38 54);
+    padding: 50px;
+}
+@media(max-width: 991px){
+    .our-products .product-bg{
+        background-color: rgb(38 38 54);
+        padding: 50px 15px;
+    }
+    .our-products h4{
+        margin-top: 30px;
+    }
+}

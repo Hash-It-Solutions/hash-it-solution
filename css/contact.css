@@ -30,6 +30,9 @@
   .contact-us form input::placeholder, .contact-us form textarea::placeholder{
     color: #DCDCDC;
   }
+  .contact-us p{
+    text-align: justify;
+  }
   .contact-us form button{
     width: 100%;
     background-color: #CE0F0F;
