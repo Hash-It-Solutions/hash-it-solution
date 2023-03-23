@@ -20,9 +20,16 @@
     display: block;
     border-radius: 5px;
     object-fit: cover;
+    transition: 0.3s ease;
+}
+.our-products img:hover {
+	transform: none;
+}
+.our-products .product-head{
+    margin-bottom: 50px;
 }
 .our-products .product-bg{
-    background-color: rgb(38 38 54);
+    background-color: rgb(60 60 65);
     padding: 50px;
 }
 @media(max-width: 991px){

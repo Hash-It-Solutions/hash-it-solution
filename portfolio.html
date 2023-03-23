@@ -17,6 +17,7 @@
     <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.helha.pub/scripts/lightbox2-2.11.1/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/service.css">
@@ -81,110 +82,106 @@
 
 
     <section class="gallery">
-        <div class="row">
-          <div class="gallery-filter">
-            <span class="filter-item active" data-filter="all">All</span>
-            <span class="filter-item" data-filter="website-development">Website Development</span>
-            <span class="filter-item" data-filter="ios-app-design">IOS App Development</span>
-            <span class="filter-item" data-filter="software-development">Software Development</span>
-          </div>
+      <div class="filter-buttons">
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter=".website-development">Website Develeopment</button>
+        <button type="button" data-filter=".mobile-app">Mobile Application Develeopment</button>
+        <button type="button" data-filter=".software-development">Software Development</button>
+        <button type="button" data-filter=".digital-marketing">Digital Marketing</button>
+    </div>
+    
+    <div class="grid-container filter-container">
+        <div class="item mix  website-development">
+            <a href="http://verdantorbis.com/" target="_blank">
+                <img src="images/portfolio/9dstudio.png">
+            </a>
         </div>
-        <div class="row">
-          <!-- gallery item start -->
-          <div class="gallery-item website-development">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/1.png" alt="website-development content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Pepa & CO</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item end -->
-          <!-- gallery item start -->
-          <div class="gallery-item ios-app-design">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/2.png" alt="ios-app-design content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Nexus</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item end -->
-          <div class="gallery-item website-development">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/7.png" alt="website-development content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Leen Restaurant</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item start -->
-          <div class="gallery-item software-development">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/3.png" alt="software-development content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Leen Restaurant</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item end -->
-          <!-- gallery item start -->
-          <div class="gallery-item ios-app-design">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/4.png" alt="ios-app-design content-image content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Technovalley</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item end -->
-          <!-- gallery item start -->
-          <div class="gallery-item software-development">
-            <div class="gallery-item-inner">
-              <div class="content">
-                <a href="">
-                  <div class="content-overlay"></div>
-                  <img src="images/portfolio/5.png" alt="software-development content-image">
-                </a>
-                <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Protac</h3>
-                  <a href=""><button class="button-more btn btn-sm mt-3">View Project</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- gallery item end -->
+        <div class="item mix website-development">
+          <a href="http://kanz-properties.com" target="_blank">
+              <img src="images/portfolio/kenz-properties.png">
+          </a>
         </div>
+        <div class="item mix  website-development">
+          <a href="https://leencoffee.com/" target="_blank">
+              <img src="images/portfolio/leen-coffee-web1.png">
+          </a>
+        </div>
+        <div class="item mix  website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/nexus.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/white-angel.png">
+          </a>
+        </div>
+        <div class="item mix  website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/logic-web.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/verdant-orbis.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/Pepa-and-co.png">
+          </a>
+        </div>
+        <div class="item mix  website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/protec.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/ventura.png">
+          </a>
+        </div>
+        <div class="item mix portrait  website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/leen-restaurant.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/shezaae.png">
+          </a>
+        </div>
+        <div class="item mix website-development">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/bti.png">
+          </a>
+        </div>
+        <div class="item mix mobile-app portrait">
+          <a href="http://btiacademy.org/" target="_blank">
+              <img src="images/portfolio/Kenz-food.png">
+          </a>
+        </div>
+        <div class="item portrait mix mobile-app">
+          <a href="http://btiacademy.org/" target="_blank">
+            <img src="images/portfolio/vanlogic.jpg">
+          </a>
+        </div>
+        <div class="item mix software-development">
+          <a href="http://btiacademy.org/" target="_blank">
+            <img src="images/products/asset.jpg">
+          </a>
+        </div>
+        <div class="item mix software-development">
+          <a href="http://btiacademy.org/" target="_blank">
+            <img src="images/products/hr.jpg">
+          </a>
+        </div>
+        <div class="item mix software-development">
+          <a href="http://btiacademy.org/" target="_blank">
+            <img src="images/products/sale.jpg">
+          </a>
+        </div>
+    </div>
     </section>
     
 <!-- -----------------about-us end----------------- -->
@@ -211,6 +208,9 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.helha.pub/scripts/patrickkunka-mixitup-61dac05/dist/mixitup.min.js"></script>
+    <script src="https://www.helha.pub/scripts/lightbox2-2.11.1/dist/js/lightbox.js"></script>
     <script src="js/script.js"></script>
     <script src="js/text-animation.js"></script>
     <script src="js/portfolio.js"></script>
