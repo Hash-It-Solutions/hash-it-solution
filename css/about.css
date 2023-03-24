@@ -73,7 +73,7 @@
     border-left: 7px solid #9747FF;
     border-bottom: 7px solid #9747FF;
 }
- img:hover {
+.about-us-gallery img:hover {
 	transform: scale(1.1);
 }
 .gallery-item {

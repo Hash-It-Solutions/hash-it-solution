@@ -28,9 +28,10 @@
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-auto-flow: dense;
+    margin-top: 50px;
   }
   .grid-container .item {
-    background:#8FF;
+    background:rgb(0, 0, 0);
     display:flex;
   }
   .grid-container .item a {
@@ -55,15 +56,18 @@
     text-align:center;
   }
   .filter-buttons button {
-    background:#ccc;
+    background:transparent;
+    color: #eee;
     border:none;
     font-size:1rem;
     padding:.5rem 1rem;
     margin-bottom:.5rem;
+    transition: 0.3s ease;
   }
-  .filter-buttons button:focus {
+  .filter-button:focus, .filter-button.active, .filter-button:hover {
     outline:none;
     background:#eee;
+    color: #2a2932;
   }
   .filter-container button{
     background-color: #4c3c5e;
